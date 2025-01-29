@@ -111,7 +111,7 @@ header .icons i{
     margin: .3rem; 
     color: #000;
 }
-.fade-element .ico{
+.fade-element {
     animation: fade-in-out 2s infinite;
     position: relative;
 }
@@ -122,10 +122,13 @@ header .ico{
     align-items: center;
     justify-content: center;
 }
+header .ico:hover{
+    animation: fade-in-out 2s infinite;
+}
 header .bx-menu{
     font-size: 1.5rem;
     cursor: pointer;
-    margin: .2rem;
+    margin: .1rem;
     color: #75b263;
     display: none;
 }
@@ -155,7 +158,7 @@ header .bx-menu{
     justify-content: center;
 }
 .slider-container .slideBox .textBox h1{
-    font-size: 3.2rem;
+    font-size: 3.1rem;
     color: rgb(6, 66, 6);
     text-transform: capitalize;
     margin-bottom: 2rem;
@@ -380,12 +383,12 @@ header .bx-menu{
     margin: .5rem;
 }
 .testimonial .box-container .box span{
-    color: #fff;
+    color: rgb(252, 252, 78);
     text-transform: capitalize;
     font-size: 1.5rem;
 }
 .testimonial .box-container .box p{
-    color: #fffdfd;
+    color: #3ff508;
     line-height: 1.5;
     padding: 1rem;
     font-size: 1.6rem;
@@ -609,10 +612,10 @@ footer .bottom p{
     }
     .slider-container .slideBox .textBox h1{
         text-align: center;
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .slider-container .slideBox .textBox a{
-        font-size: 20px;
+        font-size: 18px;
         color: whitesmoke;
         background-color: #75b263;
         margin-bottom: 2rem;
@@ -656,4 +659,4 @@ footer .bottom p{
     html {
         font-size: 75%;
     }
-}  
+} 
