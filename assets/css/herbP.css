@@ -349,7 +349,7 @@ header .bx-menu{
 }
 .testimonial{
     padding: 4% 6%;
-    background-image: url(/assets/img/herb7.jpg);
+    background-image: url(/assets/img/herb\ tea3.jpg);
     background-size: cover;
     min-height: 100vh;
 }
@@ -637,6 +637,8 @@ footer .bottom p{
         font-size: 1.5rem;
     }
     .testimonial{
+        background-image: url(/assets/img/herb\ tea3.jpg);
+        background-size: cover;
         min-height: 100vh;
     }
     .testimonial .box-container .box{
